@@ -1,0 +1,43 @@
+/*
+.montagem {
+	border: 2px solid #CCC;
+	position: absolute;
+	width: 100%;
+	min-height: 100px;
+	height: auto;	
+	overflow: hidden;
+}
+*/
+.layout {
+	position: absolute;
+	z-index: 1;
+	width: 237px;
+	height: auto;
+	min-height: 475px;
+	top: 50%;
+	left: 50%;
+	margin-left: -120px;
+	margin-top: -230px;
+	border: 1px solid #ccc;
+}
+.celular {
+	margin: 30px 0 30px 0;
+}
+.bloco-simples {
+	float: left;
+	color: black;
+	background-color: white;
+	border: 1px solid green;
+	opacity:0.3;
+	font-weight: bolder;
+	padding: 30px;
+}
+.bloco-duplo {
+	float: left;
+	padding: 70px;
+	color: black;
+	background-color: white;
+	border: 1px solid green;
+	opacity:0.4;
+	font-weight: bolder;
+}
